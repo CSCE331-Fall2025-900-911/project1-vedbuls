@@ -1,81 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-    <p><h1>Technical Portfolio</h1></p>
-    
-    <h2>Project: Family Tree Management App (CRUD Application) -</h2>
-<p>
-  GitHub: <a href="https://github.com/vedbulusu/CrudApp" target="_blank">CrudApp Repository</a>
-</p>
+<div class="container">
+    <div class="sidebar">
+        <h2>Explore More</h2>
 
-    <p>This project is a web application where users can manage a list of members and parent-child relationships. The app can perform all CRUD operations and assign parent-child relationships.</p>
-        
-    <h3>Features:</h3>
-    <ul>
-        <li><b>Add, Edit or Delete - </b>Full CRUD operations to add, edit, or delete a table of people, given the properties of that member.</li>
-        <li><b>Generate a descendant tree for any selected person - </b>If you click generate tree for any member, a tree with all descendants will display, showing all parent-child relationships within the descendants.</li>
-        <li><b>Search by firstname or lastname - </b>Allows user to search for a specific member by entering a portion of the member's first or last name.</li>
-        <li><b>Data Validation - </b>Prevents editing or adding a member with an invalid ParentId where no one has that ParentId.</li>
-        <li><b>Responsive UI - </b>The app, including the descendant tree, updates immediately after an operation made by the user.</li>
-    </ul>
+        <p class="index">
+            <img src="rockets.tiff">
+            <a href="index.html">Go To Landing Space</a>
+        </p>
 
-    <h3>Tools and Technologies:</h3>
-    <ul>
-        <li><b>FastAPI - </b>Handles backend data and requests.</li>
-        <li><b>MySQL - </b>Stores people and their relationships.</li>
-        <li><b>Angular - </b>Frontend framework for the user interface.</li>
-        <li><b>HTML / CSS - </b>Structure and styling of the app.</li>
-        <li><b>TypeScript - </b>Frontend logic and interactivity.</li>
-    </ul>
+        <p style="background-color: rgb(100, 101, 102); border: 4px solid black;" class="portfolio">
+            <img src="portfolio.PNG">
+            <a href="portfolio.html">Go To Portfolio</a>
+        </p>
 
-    <p>Useful resources used: 
-        <a href="https://fastapi.tiangolo.com/">FastAPI tutorial</a>, 
-        <a href="https://www.credential.net/c6ba42f9-5568-4d1f-ace7-3f00ab716cd2#acc.HpWUOcPJ">Typescript tutorial</a>
-    </p>
+        <p class="Qualifications">
+            <img src="qualification.tiff">
+            <a href="Qualifications.html">Go To Qualifications</a>
+        </p>
 
-    <h2>(Planned/Not started) Finance Tracker -</h2>
-    <p>
-        This project is a web application where users can manage their finances by recording all expenses, incomes, 
-        and viewing their current balance, as well as tracking spending trends over time.
-    </p>
+        <p class="services">
+            <img src="service.png">
+            <a href="services.html">Go To Services</a>
+        </p>
 
-    <h3>Desired Features:</h3>
-    <ul>
-        <li><b>Add Income & Expenses - </b>Users can add total income/expenses.</li>
-        <li><b>Edit & Delete Entries - </b>Users can correct mistakes or remove old data.</li>
-        <li><b>Display Current Balance, Income, Expenses - </b>Displays data that the user provides, such as Current Balance, Income, and Expenses.</li>
-    </ul>
+        <p class="genai">
+            <img src="portfolio.PNG">
+            <a href="genai.html">Go To genai</a>
+        </p>
+    </div>
 
-    <h3>(Planned) Tools and Technologies:</h3>
-    <ul>
-        <li><b>Python (FastAPI / Flask) - </b>Handles backend logic, data processing, and requests.</li>
-        <li><b>MySQL / SQLite - </b>Stores income, expenses, and user data.</li>
-        <li><b>Matplotlib / Plotly - </b>Generates charts for spending trends and balances.</li>
-        <li><b>HTML / CSS - </b>Structure and styling of the web app.</li>
-        <li><b>JavaScript (Optional) - </b>Minor frontend interactivity, like form validation.</li>
-    </ul>
+    <div class="main-content">
+        <div class="p1">
+            <h1 class="header">Portfolio</h1>
+            <p class="description">My individual projects current and planned</p>
+            <hr class="line">
+        </div>
 
-<p>Useful resource used: 
-    <a href="https://matplotlib.org/stable/tutorials/introductory/pyplot.html">Matplotlib Pyplot Tutorial</a>
-</p>
+        <div class="Top">
+            <h2 class="projtitle01">
+                Project: Family Tree Management App (CRUD Application) - 
+                GitHub: <a href="https://github.com/vedbulusu/CrudApp" target="_blank">CrudApp Repository</a>
+            </h2>
+        </div>
 
+        <div class="projects">
+            <div class="proj1">
+                <div class="project-description">
+                    <p>
+                        This project is a web application where users can manage a list of members
+                        and parent-child relationships. The app can perform all CRUD operations
+                        and assign parent-child relationships.
+                    </p>
+                </div>
 
-    <h2>Explore More</h2>
-    <ul>
-        <li><a href="index.html">Go To Landing Space</a></li>
-        <li><a href="Qualifications.html">Go To Qualifications</a></li>
-        <li><a href="services.html">Go To Services</a></li>
-        <li><a href="genai.html">Go To genai</a></li>
-    </ul>
+                <div class="rest-of-proj">
+                    <div class="side1">
+                        <h3>Features:</h3>
+                        <ul>
+                            <li><b>Add, Edit or Delete - </b>Full CRUD operations to add, edit, or delete from a table of people, given the properties of that member.</li>
+                            <br>
+                            <li><b>Generate a descendant tree for any selected person - </b>If you click generate tree for any member, a tree with all descendants will display, showing all parent-child relationships within the descendants.</li>
+                            <br>
+                            <li><b>Search by firstname or lastname - </b>Allows user to search for a specific member by entering a portion of the member's first or last name.</li>
+                            <br>
+                            <li><b>Data Validation - </b>Prevents editing or adding a member with an invalid ParentId if no one has that ParentId.</li>
+                            <br>
+                            <li><b>Responsive UI - </b>The app, including the descendant tree, updates immediately after an operation made by the user.</li>
+                        </ul>
+                    </div>
 
-    <br><br>
+                    <div class="side2">
+                        <div class="list">
+                            <h3>Tools and Technologies:</h3>
+                            <br>
+                            <ul>
+                                <li><b>FastAPI - </b>Handles backend data and requests.</li>
+                                <li><b>MySQL - </b>Stores people and their relationships.</li>
+                                <li><b>Angular - </b>Frontend framework for the user interface.</li>
+                                <li><b>HTML / CSS - </b>Structure and styling of the app.</li>
+                                <li><b>TypeScript - </b>Frontend logic and interactivity.</li>
+                            </ul>
+                        </div>
+
+                        <br><br>
+
+                        <div class="resource">
+                            <h3 class="Resources">Resources:</h3>
+                            <a class="r1" href="https://fastapi.tiangolo.com/">FastAPI tutorial</a>
+                            <a class="r2" href="https://www.typescriptlang.org/docs/">Typescript tutorial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="projtitle02">(Planned/Not started) Finance Tracker -</h2>
+
+            <div class="proj2">
+                <div class="project-description">
+                    <p>
+                        This project is a web application where users can manage their finances by
+                        recording all expenses, incomes, and viewing their current balance, as well
+                        as tracking spending trends over time.
+                    </p>
+                </div>
+
+                <div class="rest-of-proj">
+                    <div class="side1">
+                        <h3>Desired Features:</h3>
+                        <ul>
+                            <li><b>Add Income & Expenses - </b>Users can add total income/expenses.</li>
+                            <br><br>
+                            <li><b>Edit & Delete Entries - </b>Users can correct mistakes or remove old data.</li>
+                            <br><br>
+                            <li><b>Display Current Balance, Income, Expenses - </b>Displays data that the user provides, such as Current Balance, Income, and Expenses.</li>
+                        </ul>
+                    </div>
+
+                    <div class="side2">
+                        <div class="list">
+                            <h3>(Planned) Tools and Technologies:</h3>
+                            <br>
+                            <ul>
+                                <li><b>Python (FastAPI / Flask) - </b>Handles backend logic, data processing, and requests.</li>
+                                <li><b>MySQL / SQLite - </b>Stores income, expenses, and user data.</li>
+                                <li><b>Matplotlib / Plotly - </b>Generates charts for spending trends and balances.</li>
+                                <li><b>HTML / CSS - </b>Structure and styling of the web app.</li>
+                                <li><b>JavaScript (Optional) - </b>Minor frontend interactivity, like form validation.</li>
+                            </ul>
+                        </div>
+
+                        <br><br>
+
+                        <div class="resource">
+                            <h3 class="Resources">Resources:</h3>
+                            <a class="r1" href="https://matplotlib.org/stable/tutorials/introductory/pyplot.html">Matplotlib Tutorial</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- rest of your content -->
+    </div>
+</div>
 
 </body>
 </html>
