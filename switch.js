@@ -25,14 +25,11 @@ function toggleStyleSheet(){
 }
 
 
-window.onload = function(){
+window.onload = function() {
     let val = document.getElementById("mainStyleSheet");
-    var a = localStorage.getItem("val")
-    
-    val.setAttribute("href",a);
+    let stored = localStorage.getItem("val");
 
-    
-
-    
+    if(stored) { 
+        val.setAttribute("href", stored);
+    }
 }
-
