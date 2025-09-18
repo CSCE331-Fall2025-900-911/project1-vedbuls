@@ -1,0 +1,451 @@
+body {
+    height: 100%; 
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width:100%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 100%;
+    padding-left: 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: #847171;;
+}
+
+.sidebar h2.explore {
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sidebar p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.sidebar p img {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar p a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.main-content {
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    flex-direction: column; 
+    background-color: #fff7e6;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+    padding-top: 1%;
+}
+
+.aboutme {
+    flex: 1 1 100%;
+    max-width: 800px;
+    text-align: center;
+    font-size: small;
+}   
+.aboutme br {
+    display: none;
+}
+
+.img-and-whywork {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex: 1 1 100%;
+    gap: 20px;
+    padding-bottom: 2%;
+}
+
+.img-and-whywork .ved {
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-and-whywork .list {
+    text-align: center;
+    max-width: 400px;
+}
+.part3{
+    min-height :12%;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line2{
+    border: 2px solid black;
+    width: 65%; 
+}
+
+.message{
+    width: 65%; 
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: small;
+    color:grey
+}
+
+.info{
+    padding-bottom: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.email{
+    text-align: center;
+    padding-left: 50px;
+}
+.phone{
+    text-align: center;
+}
+.linkedin{
+    text-align: center;
+    padding-right: 50px;
+}
+
+.info img{
+    width: 30px;
+}
+.info p{
+    margin-top: 1px;
+}
+.part1{
+    height: 10%;
+    width: 100%;
+}
+.qualifications-services-part2{
+    height:90%;
+    width: 100%;
+    display: flex;
+}
+.internship{
+    width: 30%;
+    padding-left: 3%;
+    padding-right: 1%;
+    border-right: 2px solid black;
+}
+.templespot{
+    width: 30%;
+    padding-left: 3%;
+    padding-right: 1%;
+    border-right: 2px solid black;
+}
+
+.global-career{
+    width: 30%;
+    padding-left: 3%;
+    border-right: 2px solid black;
+}
+.brazosspot{
+    width: 30%;
+    padding-left: 3%;
+    padding-right: 1.5%;
+    border-right: 2px solid black;
+}
+.skills-and-interest{
+    width: 30%;
+    padding-right: 3%;
+    padding-left: 1%;
+    margin-top: -3%;
+}
+.basketball{
+    width: 30%;
+    padding-left: 1.5%;
+}
+.intern-image{
+    margin-top: -4%;
+    width:90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.intern-image img{
+    width: 60%;
+    margin-left: 23%;
+}
+.intern-image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(61, 63, 159, 0.1);
+    width: 100%;
+    height: 50px;
+    margin-top: -8%;
+    color: #3d3f9f;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: -5%;
+}
+.gca-image{
+    margin-top: -2%;
+    width:90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.gca-image img{
+    margin-bottom: 9%;
+    width:37.74%;
+    padding: 2%;
+    margin-left: 27%;
+    border-radius: 50%;
+}
+.gca-image a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(61, 63, 159, 0.1);
+    width: 100%;
+    height: 50px;
+    margin-top: -2%;
+    color: #3d3f9f;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: -5%;
+}
+.temple-image{
+    margin-top: 4%;
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: -3%;
+}
+.temple-image img{
+    width:40%;
+    margin-top: -7%;
+    margin-left: 30%;
+}
+.temple-image a{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgba(61, 63, 159, 0.1);
+    color: #3d3f9f;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.brazos-image{
+    margin-top: 4%;
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: -3%;
+}
+.brazos-image img{
+    width:32%;
+    margin-top: -4%;
+    margin-left: 34%;
+    border-radius: 50%;
+}
+.brazos-image a{
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgba(61, 63, 159, 0.1);
+    color: #3d3f9f;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.badges{
+    margin-top: 10%;
+    display:flex;
+    gap: 5%;
+}
+.badges h3{
+    margin-top: 7%;
+}
+.badge1{
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgba(61, 63, 159, 0.1);
+    color: #3d3f9f;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.badge2{
+    margin-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20%;
+    height: 50px;
+    text-decoration: none;
+    background-color: rgba(61, 63, 159, 0.1);
+    color: #3d3f9f;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.part1{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.part1 hr{
+    display: none;
+}
+.description{
+    display: flex;
+    gap: 25px;
+    white-space: nowrap; 
+}
+.description::before,
+.description::after {
+    content: "";
+    width: 60%;           
+    height: 5px;         
+    background-color: black;    
+    margin: 10px auto;
+}
+.aboutme{
+    margin-top: -3%;
+}
+.part2{
+    margin-top: -1%;
+    background-color: #ffeacc;
+    padding-top: 2%;
+    margin-left: 15%;
+    width:70%;
+    margin-bottom: 2%;
+    border-radius: 5%;
+}
+.projects{
+    display: flex;
+}
+.project1{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+    border-right: 2px solid gray;
+}
+.project2{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+}
+.resource{
+    display: flex;
+    margin-bottom: 2%;
+    gap: 2%;
+}
+.resource h3{
+    margin-top: 2%;
+}
+.r1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(61, 63, 159, 0.1);
+    width: 30%;
+    height: 50px;
+    color: #3d3f9f;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.r2{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(61, 63, 159, 0.1);
+    width: 30%;
+    height: 50px;
+    color: #3d3f9f;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 2px solid #3d3f9f;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.features h3{
+    font-size: 200%;
+}
+.tools h3{
+    font-size: 200%;
+}
+.projtitle01{
+    font-size: 200%;
+    color: darkblue;
+}
+.projtitle02{
+    font-size: 200%;
+    color: darkblue;
+}
+.switch{
+    position:absolute;
+    left: 93%;
+    top: 2.5%;
+    width:3%;
+    height: 5%;
+    border: 2px solid black;     
+    border-radius: 50%; 
+    background-color: purple;
+}

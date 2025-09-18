@@ -2,13 +2,16 @@
 <html>
 <head>
     <title>Ved Bulusu - Landing Page</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css">
 </head>
+    <button class="switch" onclick="toggleStyleSheet()" type="button"></button>
+
 <body>
+
 
 <div class="container">
     <div class="sidebar">
-        <h2>Explore More</h2>
+        <h2 class="explore">Explore More</h2>
 
         <p style="background-color: rgb(100, 101, 102); border: 4px solid black;" class="index">
             <img src="rocket.PNG">
@@ -37,20 +40,21 @@
     </div>
 
     <div class="main-content">
-        <div class="p1">
+        <div class="part1">
             <h1 class="header">Ved Bulusu</h1>
             <p class="description">Junior student at Texas A&M university</p>
+            
             <hr class="line">
         </div>
 
-        <div class="p2">
-            <div class="left">
+        <div class="part2">
+            <div class="aboutme">
                 <br><br>
                 <h2>About Me ...</h2>
                 <br><br>
 
                 <p>
-                    Hello! I am Ved Bulusu, a sophomore computer science student with a passion for coding,
+                    Hi! I am Ved Bulusu, a sophomore computer science student with a passion for coding,
                     problem-solving, and technology. My main goal is to enhance my programming skills
                     with experience through personal projects and internships.
                 </p>
@@ -73,7 +77,7 @@
                 <br><br>
             </div>
 
-            <div class="right">
+            <div class="img-and-whywork">
                 <img class="ved" src="Ved.PNG" width="300" alt="Ved's Image">
 
                 <div class="list">
@@ -91,7 +95,7 @@
 
         <hr style="margin: 0 auto;" class="line2">
 
-        <div class="p3">
+        <div class="part3">
             <p class="message">
                 Thank you for visiting my landing page. I hope this website helps you understand my
                 personality, skills, and interests, along with the work, projects, and contributions
@@ -123,6 +127,7 @@
         </div>
     </div>
 </div>
+<script src="switch.js"></script>
 
 </body>
 </html>

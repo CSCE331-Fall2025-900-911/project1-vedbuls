@@ -2,9 +2,11 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style2.css">
     <title>Services</title>
 </head>
+    <button class="switch" onclick="toggleStyleSheet()" type="button"></button>
+
 <body>
 
 <div class="container">
@@ -34,7 +36,7 @@
     </div>
 
     <div class="main-content">
-        <div class="p1">
+        <div class="part1">
             <h1 class="header">Services</h1>
             <p class="description">
                 Volunteering & community work
@@ -42,8 +44,8 @@
             <hr class="line">
         </div>
 
-        <div class="s2">
-            <div class="up">
+        <div class="qualifications-services-part2">
+            <div class="templespot">
                 <div class="temple-image">
                     <img src="temple.PNG" width="150" alt="Ved's Image" align="right" hspace="20">
                     <a class="button" href="https://www.hindutempleoffrisco.org/">Website</a>
@@ -51,6 +53,8 @@
                 <div class="explain">
                     <br><br>
                     <h3>Volunteer - Venkateswara Temple, Frisco, TX (May 2021 - May 2023)</h3>
+                    <br>
+
                     <ul>
                         <li>Assisted in various tasks and contributed services, such as performing rituals, serving food, cleaning once done, and working behind the cash register.</li>
                         <li>Spent 5 hours a week contributing toward maintaining a welcoming environment and a smooth and enjoyable experience for visitors.</li>
@@ -59,7 +63,7 @@
                 </div>
             </div>
 
-            <div class="middle">
+            <div class="brazosspot">
                 <div  class="brazos-image">
                     <img  src="brazos.PNG" width="150" alt="Ved's Image" align="right" hspace="20">
                     <a class="button" href="https://www.keepbrazosbeautiful.org/">Website</a>
@@ -67,6 +71,8 @@
                 <div  class="explain">
                     <br><br>
                     <h3>Volunteer Interest - Keep Brazos Beautiful, College Station, TX (Not Started)</h3>
+                                    <br>
+
                     <ul>
                         <li>Engage in litter control, recycling, and work toward maintaining a more beautiful environment.</li>
                         <li>Contribute toward improving public spaces and raising environmental awareness.</li>
@@ -75,7 +81,7 @@
                 </div>
             </div>
 
-            <div class="down">
+            <div class="basketball">
                 <h3>Volunteer - Youth Basketball Coach, College Station, TX (June 2022 - June 2023)</h3>
                 <br>
                 <ul>
@@ -87,6 +93,7 @@
         </div>
     </div>
 </div>
+<script src="switch.js"></script>
 
 </body>
 </html>

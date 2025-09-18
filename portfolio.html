@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <title>Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link id="mainStyleSheet" rel="stylesheet" type="text/css" href="style.css">
 </head>
+    <button class="switch" onclick="toggleStyleSheet()" type="button"></button>
+
 <body>
 
 <div class="container">
@@ -37,20 +39,23 @@
     </div>
 
     <div class="main-content">
-        <div class="p1">
+        <div class="part1">
             <h1 class="header">Portfolio</h1>
             <p class="description">My individual projects current and planned</p>
             <hr class="line">
         </div>
 
-        <div class="Top">
-            <h2 class="projtitle01">
-                Project: Family Tree Management App (CRUD Application) - 
-                GitHub: <a href="https://github.com/vedbulusu/CrudApp" target="_blank">CrudApp Repository</a>
-            </h2>
-        </div>
 
         <div class="projects">
+            <div class="project1">
+
+            <div class="Top">
+                <h2 class="projtitle01">
+                    Project: Family Tree Management App (CRUD Application) - 
+                    GitHub: <a href="https://github.com/vedbulusu/CrudApp" target="_blank">CrudApp Repository</a>
+                </h2>
+            </div>
+
             <div class="proj1">
                 <div class="project-description">
                     <p>
@@ -61,7 +66,7 @@
                 </div>
 
                 <div class="rest-of-proj">
-                    <div class="side1">
+                    <div class="features">
                         <h3>Features:</h3>
                         <ul>
                             <li><b>Add, Edit or Delete - </b>Full CRUD operations to add, edit, or delete from a table of people, given the properties of that member.</li>
@@ -76,7 +81,7 @@
                         </ul>
                     </div>
 
-                    <div class="side2">
+                    <div class="tools">
                         <div class="list">
                             <h3>Tools and Technologies:</h3>
                             <br>
@@ -99,6 +104,8 @@
                     </div>
                 </div>
             </div>
+            </div>
+            <div class="project2">
 
             <h2 class="projtitle02">(Planned/Not started) Finance Tracker -</h2>
 
@@ -112,7 +119,7 @@
                 </div>
 
                 <div class="rest-of-proj">
-                    <div class="side1">
+                    <div class="features">
                         <h3>Desired Features:</h3>
                         <ul>
                             <li><b>Add Income & Expenses - </b>Users can add total income/expenses.</li>
@@ -123,7 +130,7 @@
                         </ul>
                     </div>
 
-                    <div class="side2">
+                    <div class="tools">
                         <div class="list">
                             <h3>(Planned) Tools and Technologies:</h3>
                             <br>
@@ -145,11 +152,12 @@
                     </div>
                 </div>
             </div>
+            </div>
         </div>
 
-        <!-- rest of your content -->
     </div>
 </div>
+<script src="switch.js"></script>
 
 </body>
 </html>
