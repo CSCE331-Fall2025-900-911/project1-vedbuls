@@ -449,3 +449,13 @@ body {
     border-radius: 50%; 
     background-color: purple;
 }
+.drive{
+    width: 100%;
+    height:450px;
+}
+.resume-embed{
+    width:60%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
