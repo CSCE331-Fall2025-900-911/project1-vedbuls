@@ -4,7 +4,6 @@
 }
 
 html, body {
-    overflow: hidden;
 
   height: 100%;
   width: 100%;
@@ -808,4 +807,18 @@ h2 {
      border-radius: 50%; 
      background-color: darkblue;
 
+}
+
+.drive{
+    margin-top: -1%;
+    width: 100%;
+    height:350px;
+}
+.resume-embed{
+    margin-top: 2%;
+
+    padding-left: 5%;
+    padding-right: 5%;
+
+    text-align: center;
 }
