@@ -318,7 +318,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:20%;
+    width:50%;
     height: 50px;
     text-decoration: none;
     background-color: rgba(61, 63, 159, 0.1);
@@ -333,7 +333,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:20%;
+    width:50%;
     height: 50px;
     text-decoration: none;
     background-color: rgba(61, 63, 159, 0.1);
@@ -458,4 +458,9 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
+    margin-top: -2%;
+}
+.links{
+
+    display:flex;
 }
