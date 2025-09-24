@@ -637,13 +637,11 @@ h2 {
     background-color: rgb(61, 63, 159);  
     width:70%;
     height: 50px;
-    margin-left: 7.5%;
     color: white;
     text-decoration: none;
     border-radius: 10px;
     border: 2px solid black;
 
-    margin-left:15%
 
     
 
@@ -655,17 +653,18 @@ h2 {
     background-color: rgb(61, 63, 159);  
     width:70%;
     height: 50px;
-    margin-left: 7.5%;
     color: white;
     text-decoration: none;
     border-radius: 10px;
     border: 2px solid black;
-    margin-left: 15%
 
 
 
     
 
+}
+.links{
+    display:flex;
 }
 
 .badges{
